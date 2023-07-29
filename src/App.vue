@@ -7,7 +7,7 @@
     </div>
   </nav>
   <a href="https://api.whatsapp.com/send?phone=56947742842" target="_blank"><img class="whatsappLink" src="./assets/whatsapp.png" alt=""></a>
-<div class="footer"> </div>
+<div class="footer"><img src="@/assets/instagram.jpg"></div>
   <router-view/>
 </template>
 
