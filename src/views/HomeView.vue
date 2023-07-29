@@ -1,18 +1,37 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <carrusel></carrusel>
+    <galeriaFotos></galeriaFotos>
+    <seccion tittle="Hola mundo"></seccion>
+  
+    
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import vistaPredeterminada from '@/components/vistaPredeterminada.vue'
+import galeriaFotos from '@/components/galeriaFotos.vue'
+import seccion from '@/components/seccion.vue'
+import carrusel from '@/components/carrusel.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    vistaPredeterminada,
+    galeriaFotos,
+    seccion,
+    carrusel
   }
 }
 </script>
+<style scoped>
+
+.home{
+  height: 75vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+</style>
