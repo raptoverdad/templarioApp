@@ -1,7 +1,8 @@
 <template>
   <div class="home">
+      <h1>Nuestros servicios</h1>
     <carrusel></carrusel>
-    <galeriaFotos></galeriaFotos>
+     <h1>clientes satisfechos</h1>
     <seccion tittle="Hola mundo"></seccion>
   
     
