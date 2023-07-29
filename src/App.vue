@@ -7,6 +7,7 @@
     </div>
   </nav>
   <a href="https://api.whatsapp.com/send?phone=56947742842" target="_blank"><img class="whatsappLink" src="./assets/whatsapp.png" alt=""></a>
+<div class="footer"> </div>
   <router-view/>
 </template>
 
@@ -17,6 +18,15 @@
   right: 5vh;
   border-radius: 100%;
   bottom:5vh;
+}
+.footer{
+position:fixed;
+left:0;
+bottom:0;
+background-color:#000;
+display:flex;
+justify-content:center;
+align-items:center;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
