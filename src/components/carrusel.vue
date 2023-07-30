@@ -47,7 +47,26 @@ export default {
     height: 30vh;
 }
 img{
-  width: 40vw;
-  height: 33vh;
+  width: 1080px;
+  height: 576px;
+}
+@media(max-width:1024px){
+img{
+width:1024px;
+height:576px;
+}
+}
+@media(max-width:900px){
+img{
+width:854px;
+height:480px;
+}
+
+}
+@media(max-width:650px){
+img{
+width:640px;
+height:360px;
+}
 }
 </style>
