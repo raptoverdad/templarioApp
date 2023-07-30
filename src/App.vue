@@ -6,7 +6,7 @@
       <router-link to="/about">Contacto</router-link>
     </div>
   </nav>
-  <a href="https://api.whatsapp.com/send?phone=56947742842" target="_blank"><img class="whatsappLink" src="./assets/whatsapp.png" alt=""></a>
+  <a href="https://api.whatsapp.com/send?phone=56947742842" target="_blank"><img class="whatsappLink" src="./assets/whatsappoficial.png" alt=""></a>
 <div class="footer"><img class="instagram" src="@/assets/instagram.jpg"></div>
   <router-view/>
 </template>
@@ -19,7 +19,6 @@ width: 5vh;
 .whatsappLink{
   position: fixed;
   right: 5vh;
-  border-radius: 100%;
   bottom:5vh;
 }
 .footer{
