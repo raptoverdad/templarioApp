@@ -46,5 +46,8 @@ export default {
 .carousel{
     height: 30vh;
 }
-
+img{
+  width: 40vw;
+  height: 25vh;
+}
 </style>
