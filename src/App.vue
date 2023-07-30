@@ -18,9 +18,11 @@ width: 5vh;
 }
 .whatsappLink{
   position: fixed;
-  right: 5vh;
-  bottom:5vh;
+  right: 2vw;
+  bottom:7vh;
   z-index: 3;
+  height:10vh ;
+width: 10vh;
 }
 .footer{
 position:fixed;
