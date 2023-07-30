@@ -2,8 +2,7 @@
   <div class="home">
       <h1>Nuestros servicios</h1>
     <carrusel></carrusel>
-     <h1>clientes satisfechos</h1>
-    <seccion tittle="Hola mundo"></seccion>
+
   
     
   </div>
