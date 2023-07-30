@@ -44,29 +44,33 @@ export default {
 </script>
 <style scoped>
 .carousel{
-    height: 30vh;
+    height: min-content;
+    width: 100vw;
+border: 3PX SOLID BLACK;
+overflow: hidden;
 }
 img{
   width: 1080px;
   height: 576px;
+  z-index: 1;
 }
 @media(max-width:1024px){
-img{
-width:1024px;
-height:576px;
+    img{
+width:854px;
+height:480px;
 }
 }
 @media(max-width:900px){
-img{
-width:854px;
-height:480px;
+    img{
+        width:320px;
+height:180px;
 }
 
 }
 @media(max-width:650px){
 img{
-width:640px;
-height:360px;
+width:320px;
+height:180px;
 }
 }
 </style>

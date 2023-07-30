@@ -20,6 +20,7 @@ width: 5vh;
   position: fixed;
   right: 5vh;
   bottom:5vh;
+  z-index: 3;
 }
 .footer{
 position:fixed;
@@ -31,6 +32,7 @@ justify-content:center;
 align-items:center;
 height: 6vh;
 width: 100%;
+z-index: 2;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
