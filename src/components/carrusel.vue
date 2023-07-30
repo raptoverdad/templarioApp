@@ -42,12 +42,12 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 .carousel{
     height: 30vh;
 }
 img{
   width: 40vw;
-  height: 25vh;
+  height: 33vh;
 }
 </style>
