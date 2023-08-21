@@ -42,6 +42,19 @@ export default {
         'https://res.cloudinary.com/debvhmcid/image/upload/v1692598802/templario/Captura10_cikcm2.jpg',
         'https://res.cloudinary.com/debvhmcid/image/upload/v1692598802/templario/Captura12_pjnar7.jpg',
 
+        'https://res.cloudinary.com/debvhmcid/image/upload/v1692649216/Captura26_gq7bbg.jpg',
+        'https://res.cloudinary.com/debvhmcid/image/upload/v1692649216/Captura25_or6zdk.jpg',
+        'https://res.cloudinary.com/debvhmcid/image/upload/v1692649216/Captura24_qbmebd.jpg',
+        'https://res.cloudinary.com/debvhmcid/image/upload/v1692649216/Captura29_pex3tl.jpg',
+        'https://res.cloudinary.com/debvhmcid/image/upload/v1692649216/Captura27_dv5zca.jpg',
+
+        'https://res.cloudinary.com/debvhmcid/image/upload/v1692649216/Captura33_uhmqez.jpg',
+        'https://res.cloudinary.com/debvhmcid/image/upload/v1692649216/Captura30_yilshy.jpg',
+        'https://res.cloudinary.com/debvhmcid/image/upload/v1692649216/Captura34_rdx7qd.jpg',
+        'https://res.cloudinary.com/debvhmcid/image/upload/v1692649216/Captura32_vijbl1.jpg',
+        'https://res.cloudinary.com/debvhmcid/image/upload/v1692649216/Captura31_gm7qpc.jpg',
+
+
       ], // Tus URLs de imágenes aquí
       isVisible: [],
       fotoClickeada:''
