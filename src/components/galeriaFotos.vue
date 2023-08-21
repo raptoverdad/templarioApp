@@ -102,8 +102,8 @@ export default {
   
       }
       .modalImg{
-        height: 70vh;
-        width: 70vh;
+        height: 1000px;
+        width: 1000px;
       }
    
 .gallery {
@@ -134,5 +134,30 @@ export default {
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
+  .modalImg{
+        height: 750px;
+        width: 750px;
+      }
+   
+}
+@media (max-width:500px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .modalImg{
+        height: 400px;
+        width: 400px;
+      }
+   
+}
+@media (max-width:400px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .modalImg{
+        height: 300px;
+        width: 300px;
+      }
+   
 }
 </style>
