@@ -72,5 +72,9 @@ img{
 width:320px;
 height:180px;
 }
+.carousel{
+width: 100vw;
+overflow: hidden;
+}
 }
 </style>

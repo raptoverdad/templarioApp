@@ -3,6 +3,7 @@
     <img alt="templario tatto studio logo" src="@/assets/TEMPLARIO.png">
     <div class="routes">
       <router-link to="/">Inicio</router-link>
+      <router-link to="/ubicacion">Ubicación</router-link>
     </div>
   </nav>
   <a href="https://api.whatsapp.com/send?phone=56963723135" target="_blank"><img class="whatsappLink" src="./assets/whatsappoficial.png" alt=""></a>

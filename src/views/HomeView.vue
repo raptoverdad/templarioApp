@@ -48,5 +48,10 @@ h1{
 justify-content: center;
 align-items: center;
 }
+@media(max-width:650px){
+  h1{
+  font-size:5vh;
 
+}
+}
 </style>
