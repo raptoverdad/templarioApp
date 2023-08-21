@@ -102,8 +102,8 @@ export default {
   
       }
       .modalImg{
-        height: 800px;
-        width: 800px;
+        height: 700px;
+        width: 700px;
       }
    
 .gallery {
@@ -135,8 +135,8 @@ export default {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
   .modalImg{
-        height: 750px;
-        width: 750px;
+        height: 600px;
+        width: 600px;
       }
    
 }
