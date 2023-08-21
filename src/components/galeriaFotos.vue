@@ -102,8 +102,8 @@ export default {
   
       }
       .modalImg{
-        height: 1000px;
-        width: 1000px;
+        height: 800px;
+        width: 800px;
       }
    
 .gallery {
