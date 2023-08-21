@@ -1,5 +1,5 @@
 <template>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2500">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="../assets/tatuajes.png" alt="Servicio 1">
@@ -45,19 +45,19 @@ export default {
 <style scoped>
 .carousel{
     height: min-content;
-    width: 100vw;
-border: 3PX SOLID BLACK;
+    width: 80vw;
+background-color: BLACK;
 overflow: hidden;
 }
 img{
-  width: 1080px;
-  height: 576px;
+  width: 420px;
+  height: 230px;
   z-index: 1;
 }
 @media(max-width:1024px){
     img{
-width:854px;
-height:480px;
+width:320px;
+height:180px;
 }
 }
 @media(max-width:900px){

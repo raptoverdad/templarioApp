@@ -2,15 +2,26 @@
   <nav>
     <img alt="templario tatto studio logo" src="@/assets/TEMPLARIO.png">
     <div class="routes">
-      <router-link to="/">Inicio</router-link> |
-      <router-link to="/about">Contacto</router-link>
+      <router-link to="/">Inicio</router-link>
     </div>
   </nav>
   <a href="https://api.whatsapp.com/send?phone=56963723135" target="_blank"><img class="whatsappLink" src="./assets/whatsappoficial.png" alt=""></a>
-<div class="footer"><img class="instagram" src="@/assets/instagram.jpg"></div>
+<div v-on:click="redirectToInstagram" class="footer"><img class="instagram" src="@/assets/instagram.jpg"></div>
   <router-view/>
 </template>
+<script>
 
+export default {
+  name: 'HomeView',
+  components: {
+  
+  },methods:{
+    redirectToInstagram() {
+      window.location.href = 'https://www.instagram.com/templario_tattoo_studio/';
+    }
+  }
+}
+</script>
 <style>
 .instagram{
 height:5vh ;
@@ -35,6 +46,7 @@ align-items:center;
 height: 6vh;
 width: 100%;
 z-index: 2;
+cursor: pointer;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

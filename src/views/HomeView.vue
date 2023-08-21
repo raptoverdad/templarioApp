@@ -1,10 +1,14 @@
 <template>
   <div class="home">
       <h1>Nuestros servicios</h1>
-    <carrusel></carrusel>
-
-  
+ 
+        <carrusel></carrusel>
     
+      <h1>Nuestro trabajo</h1>
+   
+        <galeriaFotos></galeriaFotos>
+     
+   
   </div>
 </template>
 
@@ -26,12 +30,23 @@ export default {
 }
 </script>
 <style scoped>
-
+h1{
+  font-size:7vh;
+  border-bottom: 4px solid black;
+ padding-top:2%;
+  width: 80vw;
+}
 .home{
-  height: 75vh;
+  height: min-content;
   width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  padding-bottom: 6vh;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
 }
+
 </style>
