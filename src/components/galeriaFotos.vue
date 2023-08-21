@@ -130,13 +130,23 @@ export default {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
   .modalImg{
         height: 600px;
         width: 600px;
+      }
+   
+}
+@media (max-width: 700px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .modalImg{
+        height: 500px;
+        width: 500px;
       }
    
 }
